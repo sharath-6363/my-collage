@@ -1,0 +1,25 @@
+#p1{
+  color:rgb(132, 18, 247);
+  font-style: italic;
+  
+  }
+  #reg-form{
+    text-align: center;
+    border: 3px solid rgb(48, 15, 15);
+    box-sizing: 70%;
+    text-align: center;
+    text-align-last: left;
+    font-style: bold;
+  
+  }
+  #p2{
+  font-size: small;
+  background: white;
+  border:2px solid black;
+  
+  border-bottom: 2px solid black;
+  border-radius: 4px;
+  color: red;
+  input-security: pa;
+  }
+  
