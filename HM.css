@@ -1,3 +1,4 @@
+
 body {
   font-family: Arial, sans-serif;
   background-color: #f0f0f0;
@@ -24,7 +25,7 @@ div {
   border-radius: 13px;
   box-shadow: 10px 10px 10px #888888;
   -moz-box-align: center;
-  text-emphasis-color: red;
+
 }
 
 label {
@@ -57,6 +58,3 @@ input[type="submit"]:hover {
   background-color: #0056b3;
 }
 
-#P6{
-  color: #ec7d7d;
-}
