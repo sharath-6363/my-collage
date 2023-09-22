@@ -46,8 +46,8 @@ select {
 }
 
 input[type="submit"] {
- background: red;
-  color: #ffffff;
+ background: rgb(7, 95, 38);
+  color: #010000;
   padding: 10px 20px;
   border: none;
   border-radius: 3px;
@@ -55,6 +55,6 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  -moz-outline-radius-bottomright: red;
+  -moz-outline-radius-bottomright: rgb(7, 95, 38);
 }
 
