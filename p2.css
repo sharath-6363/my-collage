@@ -1,25 +1,80 @@
-#p1{
-  color:rgb(132, 18, 247);
-  font-style: italic;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 10PX;
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
   
-  }
-  #reg-form{
-    text-align: center;
-    border: 3px solid rgb(48, 15, 15);
-    box-sizing: 70%;
-    text-align: center;
-    text-align-last: left;
-    font-style: bold;
+}
+div{
+  width:350px;
+  margin: 0 auto;
+  padding:20px;
+  background-color: #ffffff;
+  border: 10px solid #ccc;
+  border-radius: 13px;
+  box-shadow: 10px 10px 10px #221e1e;
+  -moz-box-align: center;
+}
+label{
+  display:rgb(202, 0, 0);
+  margin-bottom: 10px;
+  font-weight: bold;
+
+}
+input[type="text"],
+input[type="tel"],
+input[type="date"],
+input[type="password"],
+select{
+  width: 80%;
+  padding: 10px;
+  margin-bottom:10px;
+  border: 2px solid #ec7d7d;
+  border-radius: 10px;
+}
+input[type="submit"] {
+  background-color: #007BFF;
+  color: #e8dfdf;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 30%;
+  margin-bottom: auto;
+}
+input[type="submit"]:hover {
+  background-color: #1def51;
+}
+option[value=month],
+input[type="number"],
+input[type="year"],
+select{
+width: 20%;
+padding: 1px;
+margin-bottom:10px;
+border: 2px solid #ec7d7d;
+border-radius: 10px;
+
+}
+#hr{
+  border: 3px solid #ccc;
+  border-radius: 3px;
   
-  }
-  #p2{
-  font-size: small;
-  background: white;
-  border:2px solid black;
-  
-  border-bottom: 2px solid black;
-  border-radius: 4px;
-  color: red;
-  input-security: pa;
-  }
-  
+}
+#day{
+  font-weight: bold;
+}
+input[type=button]{ 
+  background-color: #c2c2c2;
+  color: #000000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-bottom: auto;
+}
+input[type=button]:hover{
+  background: red;
+}

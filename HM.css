@@ -60,7 +60,7 @@ input[type="submit"]:hover {
 }
 
 input[type="button"]{
-  background-color: #888888;
+  background-color: #d7d7d7;
   color:black;
   font-style: bold;
   padding: 10px 20px;
